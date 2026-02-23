@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Memory Card Game</h1>
+
+    <div class="info">
+        <p>⏱ Time: <span id="timer">0</span>s</p>
+        <p>⭐ Moves: <span id="moves">0</span></p>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+
+    <div class="game-board" id="gameBoard"></div>
+
+    <!-- Sounds -->
+    <audio id="flipSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-flip-card-2478.mp3"></audio>
+    <audio id="matchSound" src="https://assets.mixkit.co/sfx/preview/mixkit-winning-notification-2018.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
